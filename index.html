@@ -122,26 +122,37 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, var(--light-blue) 0%, var(--white) 100%);
+            background-image: url('bgimg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 120px 0 80px;
+            text-align: center;
             padding: 120px 0 80px;
             text-align: center;
         }
 
         .hero h1 {
             font-size: 3rem;
-            font-weight: 700;
+            font-weight: 1200;
             color: var(--primary-blue);
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
             margin-bottom: 1rem;
             line-height: 1.2;
         }
 
         .hero .tagline {
-            font-size: 1.25rem;
-            color: var(--text-gray);
-            margin-bottom: 2rem;
-            max-width: 800px;
+            font-size: 1.5rem;
+            font-weight: 600; /* semi-bold – not too harsh */
+            color: rgba(255, 255, 255, 0.95); /* soft white for contrast */
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); /* adds readability on bg image */
+            margin-bottom: 2.5rem;
+            max-width: 900px;
             margin-left: auto;
             margin-right: auto;
+            text-align: center; /* centers text visually */
+            line-height: 1.6; /* adds breathing space between lines */
+            letter-spacing: 0.5px; /* slightly improves legibility */
         }
 
         .cta-buttons {
